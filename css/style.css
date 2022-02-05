@@ -1,0 +1,54 @@
+main {
+    background-color: #DEDEDE;
+}
+
+.kpw-leftcontent {
+    padding: 40px 40px 40px 0px; 
+    text-align: right; 
+    border-style: solid; 
+    border-width: 0px 3px 0px 0px;
+    text-decoration: none;
+}
+
+.kpw-elmnt-titl {
+    font-size: 31px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.p-text {
+    font-family: "Roboto Condensed", Sans-serif;
+    font-size: 15px;
+}
+.hdr {
+    text-align: center; 
+    margin-top: 50px; 
+    padding: 14px 0px 14px 0px;
+}
+.hdr-txt{
+    color: #000000;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.prj {
+    color: inherit;; 
+    font-size: 21px; 
+    font-weight: 900; 
+    line-height: 1em;
+    text-decoration: none;
+}
+.prj-data {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1em;
+}
+.kpw-progress {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding-left: 15px;
+}
