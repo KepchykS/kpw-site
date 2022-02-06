@@ -1,54 +1,38 @@
-main {
-    background-color: #DEDEDE;
+body {
+    background-color: #000000;
 }
-
-.kpw-leftcontent {
-    padding: 40px 40px 40px 0px; 
-    text-align: right; 
-    border-style: solid; 
-    border-width: 0px 3px 0px 0px;
-    text-decoration: none;
-}
-
-.kpw-elmnt-titl {
-    font-size: 31px;
-    font-weight: normal;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-}
-.p-text {
-    font-family: "Roboto Condensed", Sans-serif;
-    font-size: 15px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 .hdr {
-    text-align: center; 
-    margin-top: 50px; 
-    padding: 14px 0px 14px 0px;
+    text-align: center;
+    margin-top: 165px;
+    color: #ffffff;
+    font-family: "Roboto", Sans-serif;
+    font-size: 55px;
+    font-weight: 700;
 }
-.hdr-txt{
-    color: #000000;
-    font-size: 35px;
+.hdr-txt {
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.8em;
+}
+.prj-title {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 900;
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
-.prj {
-    color: inherit;; 
-    font-size: 21px; 
-    font-weight: 900; 
-    line-height: 1em;
+.prj-srvc {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: bold;
     text-decoration: none;
 }
-.prj-data {
-    font-size: 15px;
-    font-weight: normal;
-    line-height: 1em;
-}
-.kpw-progress {
-  -webkit-box-flex: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  white-space: nowrap;
-  -o-text-overflow: ellipsis;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  padding-left: 15px;
+.prj-desc {
+    color: #686868;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2em;
 }

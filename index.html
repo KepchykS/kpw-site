@@ -1,13 +1,37 @@
 <!DOCTYPE html>
-<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KPW.SITE</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>KPW.Site</title>
+    <meta name="description" content="Служебный сайт KPW" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Kepchyk Paper Wall</h1>
-    <h2>Это служебный домен. Сервисы работающие на домене:</h2>
+<div class="container border-5">
+    <h1 class="hdr">Kepchyk Paper Wall</h1>
+    <h2 class="hdr-txt">Это служебный домен. Сервисы работающие на домене:</h2>
+</div>
+<div class="row" style="margin-top: 165px;">
+    <div class="col-md-4">
+        <h6 class="prj-title">KPW</h6>
+        <a class="prj-srvc" href="https://kep.pw/statuspage/">Status Page</a>
+        <p class="prj-desc">Мониторинг работоспособности сервисов <br>проектов.</p>
+    </div>
+    <div class="col-md-4">
+        <h6 class="prj-title">KPW</h6>
+        <a class="prj-srvc">Link Shortener</a>
+        <p class="prj-desc">Сокращение ссылок </p>
+    </div>
+    <div class="col-md-4">
+        <h6 class="prj-title">Kepchyk.me</h6>
+        <a class="prj-srvc">Mail Service</a>
+        <p class="prj-desc">Сервис электронной почты для Kepchyk.me</p>
+    </div>
+
+</div>
+
+<script src="<?=get_template_directory_uri();?>/js/bootstrap.min.js"></script>
 </body>
 </html>
