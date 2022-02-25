@@ -2,6 +2,15 @@ body {
     background-color: #000000;
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+hr {
+    border-top: 1px solid #ffffff;
+    height:3px;
+    width:88%;
+}
+.ctrd {
+    margin: 1% 20%;
+    line-height: 1;
+}
 .hdr {
     text-align: center;
     margin-top: 165px;
@@ -23,6 +32,7 @@ body {
     font-weight: 900;
     text-transform: uppercase;
     letter-spacing: 2px;
+    
 }
 .prj-srvc {
     color: #ffffff;
@@ -32,6 +42,7 @@ body {
 }
 .prj-desc {
     color: #686868;
+    margin-top: 10px;
     font-size: 16px;
     font-weight: 300;
     line-height: 2em;
